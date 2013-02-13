@@ -6,11 +6,11 @@ excerpt: Seize the day and simplify your design. Finding a simple solution to a 
 tags: Simplicity, software architecture, software design, normal form
 ---
 
-There is value on a simple solution, but most software systems are way too complex. 
+There is value in a simple solution, but most software systems are way too complex. 
 It need not be this way, especially in these days of high computing power, but first we must
 recognize the value of simplicity.
 
-You need not take my word on the importance of simplicity. It's value has been recognized already:
+You need not take my word on the importance of simplicity. Its value has been recognized already:
 
  Albert Einstein:
 >"If you can't explain it to a six year old, you don't understand it yourself." 
@@ -29,7 +29,7 @@ relatively small (aside from huge mainframe systems which were invisible) stand-
 Concurrency was a non-issue back then and most of my effort was spent on making things efficient
 in terms of CPU and memory (time and space for the theorists). 
 
-Much has changed - a modern CPU is now multithreaded and extremely powerful, internet is everywhere 
+Much has changed -- a modern CPU is now multithreaded and extremely powerful, internet is everywhere 
 and the applications are now integrated to other systems in almost real-time. The problem and 
 solution domains have become so complex that no single person can completely master everything.
 
@@ -54,7 +54,7 @@ takes considerable effort to understand, design or use. Been there, done that, n
 
 Regardless of normal form, there is the important realization that "All models are wrong. some are useful". While George Box
 was not talking about data models, this is sound advice everywhere. There are always rare marginal cases that
-would be hopelessly messy to handle. Just cut them out of the algorithms or approximate them - that's what 
+would be hopelessly messy to handle. Just cut them out of the algorithms or approximate them -- that's what 
 (software) *design* is about.
 
 
@@ -66,7 +66,7 @@ and any complexity is therefore unavoidable and a necessary evil. But is this ac
 #### What language 
 
 The battle about which language is "best" seems everlasting, though the argued languages change. 
-As a programmer I think [Paul Graham's BLUP paradox](http://www.paulgraham.com/avg.html) is spot on 
+As a programmer I think [Paul Graham's Blub paradox](http://www.paulgraham.com/avg.html) is spot on 
 and we are certainly not using the best tools available.
 
 But as an architect, I have to balance the technical merits over the practical issues.
@@ -100,9 +100,9 @@ If my memory serves me correct, this was written in 1991 in [Crafting a Compiler
 C.A.R Hoare:
 >There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.
 
-Niklaus Wirth has said many things :
+Niklaus Wirth has said many things:
 
->Increasingly, people seem to misinterpret complexity as sophistication, which is baffling --- the incomprehensible should cause suspicion rather than admiration. 
+>Increasingly, people seem to misinterpret complexity as sophistication, which is baffling -- the incomprehensible should cause suspicion rather than admiration. 
 
 >The belief that complex systems require armies of designers and programmers is wrong. A system that is not understood in its entirety, or at least to a significant degree of detail by a single individual, should probably not be built. 
 
@@ -125,7 +125,7 @@ essential lessons how people can create a complex mess inadvertently:
 
 Rich Hickey has been thinking about these issues a lot and given birth to [Clojure](http://clojure.org/) and [Datomic](http://www.datomic.com/).
 Here are some of his thoughts related to the topic of this blog post:
-[Rich Hickey on simple](http://www.slideshare.net/evandrix/simple-made-easy)
+[Rich Hickey on simplicity](http://www.slideshare.net/evandrix/simple-made-easy)
 
 Unix is, despite it's shortcomings, a good example of modularity. Exposing sockets as files,
 providing pipes to glue things together etc. provides an extremely powerful platform to build
